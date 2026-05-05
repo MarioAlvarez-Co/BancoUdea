@@ -47,9 +47,9 @@ Los reportes de JaCoCo se generan en:
 
 ## Proyecto en SonarCloud
 
-- **URL**: https://sonarcloud.io/project/overview?id=BancoUdea
+- **URL**: https://sonarcloud.io/project/overview?id=MarioAlvarez-Co_BancoUdea
 - **Organization**: mario-alvarez
-- **Project Key**: BancoUdea
+- **Project Key**: MarioAlvarez-Co_BancoUdea
 
 ## Métricas de Calidad
 
