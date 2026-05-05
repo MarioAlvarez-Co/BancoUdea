@@ -17,7 +17,7 @@ Para que el workflow de GitHub Actions funcione, necesitas configurar los siguie
 
 #### 1. SONAR_TOKEN
 - **Name**: `SONAR_TOKEN`
-- **Value**: `e1265c8af91d324f247489078ab2bd216f5b6ce4`
+- **Value**: `bd74d42886c41644290f5cceaa4b42c49e6f220b`
 
 ### Secretos Automáticos
 - `GITHUB_TOKEN`: Este se proporciona automáticamente por GitHub Actions, no necesitas configurarlo.
@@ -35,7 +35,7 @@ Para ejecutar el análisis localmente:
 
 ```bash
 mvn clean verify org.jacoco:jacoco-maven-plugin:report sonar:sonar \
-  -Dsonar.token=e1265c8af91d324f247489078ab2bd216f5b6ce4
+  -Dsonar.token=bd74d42886c41644290f5cceaa4b42c49e6f220b
 ```
 
 ## Reportes de Cobertura
@@ -47,9 +47,9 @@ Los reportes de JaCoCo se generan en:
 
 ## Proyecto en SonarCloud
 
-- **URL**: https://sonarcloud.io/project/overview?id=udea_bancoudea
-- **Organization**: udea
-- **Project Key**: udea_bancoudea
+- **URL**: https://sonarcloud.io/project/overview?id=BancoUdea
+- **Organization**: mario-alvarez
+- **Project Key**: BancoUdea
 
 ## Métricas de Calidad
 
